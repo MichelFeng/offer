@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 面试题4: 二维数组中的查找
 
@@ -30,14 +28,14 @@ func find(matrix [][]int, number int) (exist bool) {
 	return false
 }
 
-func main() {
-	matrix := [][]int{
-		[]int{1, 2, 8, 9},
-		[]int{2, 4, 9, 12},
-		[]int{4, 7, 10, 13},
-		[]int{6, 8, 11, 15},
-	}
-	fmt.Println(find(matrix, 5))
-	fmt.Println(find(matrix, 8))
-	fmt.Println(find(matrix, 16))
-}
+// func main() {
+// 	matrix := [][]int{
+// 		[]int{1, 2, 8, 9},
+// 		[]int{2, 4, 9, 12},
+// 		[]int{4, 7, 10, 13},
+// 		[]int{6, 8, 11, 15},
+// 	}
+// 	fmt.Println(find(matrix, 5))
+// 	fmt.Println(find(matrix, 8))
+// 	fmt.Println(find(matrix, 16))
+// }
