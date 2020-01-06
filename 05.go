@@ -25,7 +25,7 @@ func replaceByBuiltin(s string) {
 从后向前比较，较大的移动到A1的尾部。
 */
 
-func main() {
-	s := "We are happy"
-	replaceByBuiltin(s)
-}
+// func main() {
+// 	s := "We are happy"
+// 	replaceByBuiltin(s)
+// }
