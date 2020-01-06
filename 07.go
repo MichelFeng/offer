@@ -116,10 +116,10 @@ func orderTraverse(root *treeNode) {
 
 }
 
-func main() {
-	preOrder := []int{1, 2, 4, 7, 3, 5, 6, 8}
-	midOrder := []int{4, 7, 2, 1, 5, 3, 8, 6}
+// func main() {
+// 	preOrder := []int{1, 2, 4, 7, 3, 5, 6, 8}
+// 	midOrder := []int{4, 7, 2, 1, 5, 3, 8, 6}
 
-	head := constuct(preOrder, midOrder)
-	traverse(head)
-}
+// 	head := constuct(preOrder, midOrder)
+// 	traverse(head)
+// }
