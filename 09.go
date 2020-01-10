@@ -86,25 +86,25 @@ func (s *myStack) pop() int {
 	return -1
 }
 
-func main() {
-	q := myQueue{
-		s1: stack{},
-		s2: stack{},
-	}
-	q.appendTail(1)
-	q.appendTail(2)
-	fmt.Println(q.deleteHead())
-	q.appendTail(3)
-	fmt.Println(q.deleteHead())
+// func main() {
+// 	q := myQueue{
+// 		s1: stack{},
+// 		s2: stack{},
+// 	}
+// 	q.appendTail(1)
+// 	q.appendTail(2)
+// 	fmt.Println(q.deleteHead())
+// 	q.appendTail(3)
+// 	fmt.Println(q.deleteHead())
 
-	s := myStack{
-		l1: queue{},
-		l2: queue{},
-	}
-	s.push(1)
-	s.push(2)
-	s.push(3)
-	fmt.Println(s.pop())
-	fmt.Println(s.pop())
-	fmt.Println(s.pop())
-}
+// 	s := myStack{
+// 		l1: queue{},
+// 		l2: queue{},
+// 	}
+// 	s.push(1)
+// 	s.push(2)
+// 	s.push(3)
+// 	fmt.Println(s.pop())
+// 	fmt.Println(s.pop())
+// 	fmt.Println(s.pop())
+// }
