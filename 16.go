@@ -50,7 +50,7 @@ func powerWithUnsignedExponent(base float64, exponent int) float64 {
 	return result
 }
 
-func main() {
-	fmt.Println(power(2, 10))
-	fmt.Println(power(2, -4))
-}
+// func main() {
+// 	fmt.Println(power(2, 10))
+// 	fmt.Println(power(2, -4))
+// }
