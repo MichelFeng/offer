@@ -43,8 +43,9 @@ func printNumber(number []rune) {
 	}
 	fmt.Print("\t")
 }
-func main() {
-	print1ToMaxOfNDigits(3)
-	fmt.Println()
-	// print1ToMaxOfNDigits(10)
-}
+
+// func main() {
+// 	print1ToMaxOfNDigits(3)
+// 	fmt.Println()
+// 	// print1ToMaxOfNDigits(10)
+// }
