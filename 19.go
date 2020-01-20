@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 	题目：请实现一个函数用来匹配包含‘.’ 和 ‘*’ 的正则表达式。
 	模式中的字符‘.’表示任意一个字符，而‘*’表示提签名的字符可以出现任意次（含0次）。
@@ -39,9 +37,10 @@ func match(str, pat string) bool {
 	}
 	return false
 }
-func main() {
-	fmt.Println(match("aaa", "ab*aa"))
-	fmt.Println(match("aaa", "a.*b"))
-	fmt.Println(match("aba", "ab*ac*a"))
-	fmt.Println(match("aaa", "ab*ac*a"))
-}
+
+// func main() {
+// 	fmt.Println(match("aaa", "ab*aa"))
+// 	fmt.Println(match("aaa", "a.*b"))
+// 	fmt.Println(match("aba", "ab*ac*a"))
+// 	fmt.Println(match("aaa", "ab*ac*a"))
+// }
