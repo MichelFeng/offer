@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 	题目：请实现一个函数用来判断字符串是否表示数值（包括整数和小数）。
 	例如，字符串“+100”，”5e2“，”-123“， “3.1416”及“-1E-16”都表示数值，
@@ -46,19 +44,19 @@ func scanInteger(str *string) bool {
 	return scanUnsignedInteger(str)
 }
 
-func main() {
-	// fmt.Println(isNumeric("123"))
-	// fmt.Println(isNumeric("-123"))
-	// fmt.Println(isNumeric("-.14"))
-	// fmt.Println(isNumeric("5e-2"))
-	str := "1e.1"
-	fmt.Println(isNumeric(&str))
-	str = "5e-2"
-	fmt.Println(isNumeric(&str))
-	str = "121"
-	fmt.Println(isNumeric(&str))
-	str = "-1.34"
-	fmt.Println(isNumeric(&str))
-	str = "-1a34"
-	fmt.Println(isNumeric(&str))
-}
+// func main() {
+// 	// fmt.Println(isNumeric("123"))
+// 	// fmt.Println(isNumeric("-123"))
+// 	// fmt.Println(isNumeric("-.14"))
+// 	// fmt.Println(isNumeric("5e-2"))
+// 	str := "1e.1"
+// 	fmt.Println(isNumeric(&str))
+// 	str = "5e-2"
+// 	fmt.Println(isNumeric(&str))
+// 	str = "121"
+// 	fmt.Println(isNumeric(&str))
+// 	str = "-1.34"
+// 	fmt.Println(isNumeric(&str))
+// 	str = "-1a34"
+// 	fmt.Println(isNumeric(&str))
+// }
