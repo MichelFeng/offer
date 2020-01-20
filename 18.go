@@ -73,6 +73,6 @@ func deleteDuplication(head *listNode) {
 	}
 
 }
-func main() {
+// func main() {
 
-}
+// }
