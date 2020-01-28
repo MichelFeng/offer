@@ -36,19 +36,19 @@ func findKthToTail(head *listNodeFor22, k int) *listNodeFor22 {
 	return behind
 }
 
-func main() {
-	h := &listNodeFor22{val: 1}
-	var t *listNodeFor22 = h
-	for i := 2; i < 7; i++ {
-		n := &listNodeFor22{val: i}
-		t.next = n
-		t = n
-	}
-	p := h
-	for p != nil {
-		fmt.Printf("%v\t", p.val)
-		p = p.next
-	}
+// func main() {
+// 	h := &listNodeFor22{val: 1}
+// 	var t *listNodeFor22 = h
+// 	for i := 2; i < 7; i++ {
+// 		n := &listNodeFor22{val: i}
+// 		t.next = n
+// 		t = n
+// 	}
+// 	p := h
+// 	for p != nil {
+// 		fmt.Printf("%v\t", p.val)
+// 		p = p.next
+// 	}
 
-	fmt.Printf("\n%v", findKthToTail(h, 3))
-}
+// 	fmt.Printf("\n%v", findKthToTail(h, 3))
+// }
