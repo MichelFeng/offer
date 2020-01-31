@@ -48,16 +48,17 @@ func findPathRecursively(root *binaryTreeNode25, expectedSum int, path []*binary
 		path = path[:len(path)-2]
 	}
 }
-func main() {
-	n1 := &binaryTreeNode25{val: 10}
-	n2 := &binaryTreeNode25{val: 5}
-	n3 := &binaryTreeNode25{val: 12}
-	n4 := &binaryTreeNode25{val: 4}
-	n5 := &binaryTreeNode25{val: 7}
-	n1.left = n2
-	n1.right = n3
-	n2.left = n4
-	n2.right = n5
 
-	findPath(n1, 22)
-}
+// func main() {
+// 	n1 := &binaryTreeNode25{val: 10}
+// 	n2 := &binaryTreeNode25{val: 5}
+// 	n3 := &binaryTreeNode25{val: 12}
+// 	n4 := &binaryTreeNode25{val: 4}
+// 	n5 := &binaryTreeNode25{val: 7}
+// 	n1.left = n2
+// 	n1.right = n3
+// 	n2.left = n4
+// 	n2.right = n5
+
+// 	findPath(n1, 22)
+// }
